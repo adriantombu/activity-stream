@@ -61,6 +61,7 @@ pub struct Document {
 }
 
 pub enum DocumentType {
+    /// Represents a document of any kind.
     Document,
 
     /// Represents an audio document of any kind.
